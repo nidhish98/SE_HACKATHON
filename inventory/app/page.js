@@ -1,5 +1,10 @@
-import { redirect } from 'next/navigation';
+import Header from "@/components/Header";
+import Image from "next/image";
 
-export default function HomePage() {
-  redirect('/auth/login');
+export default function Home() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
